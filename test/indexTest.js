@@ -22,7 +22,7 @@ describe('index.js', function() {
       expect(distanceFromHqInFeet(50)).to.equal(2112);
     });
 
-    it('calculates distances below 42nd street', function() {
+    it('calculates di2qstances below 42nd street', function() {
       expect(distanceFromHqInFeet(34)).to.equal(2112);
     });
   });
